@@ -1,0 +1,18 @@
+## alias..
+alias ll='ls -lGaf'
+alias help='tldr'
+alias top='sudo htop'
+alias cat='bat'
+alias ping='prettyping --nolegend'
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
+
+
+alias start-mysql='docker start mysql-5.6'
+alias start-mongo='docker start mongo-v1'
+alias mysql-connect='docker exec -it mysql-5.6 mysql -uroot -pdocker'
+
+## handy functions
+function findPort(){
+ lsof -nP -i4TCP:$1 | grep LISTEN
+}
