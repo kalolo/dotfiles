@@ -2,7 +2,10 @@
         email = kalolo@gmail.com
         name = kalolo
 [core]
-        pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = vim
+[url "git@github.com:"]
+  insteadOf = https://github.com/	
 [color]
         ui = true
 [color "diff-highlight"]
