@@ -35,12 +35,16 @@ brew install  autoconf \
           jq \
           asdf \
           gawk \
+          setup \
           tig 
 brew install --cask vlc gpg-suite-no-mail dbeaver-community
 
 cp .aliases ~/.aliases
 cp .editorconfig ~/.editorconfig
 cp .tool-versions ~/.tool-versions
+
+
+echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
 
 echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
 #echo '. ~/.asdf/completions/asdf.bash' >> ~/.zshrc
