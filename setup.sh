@@ -36,6 +36,7 @@ brew install  autoconf \
           asdf \
           gawk \
           setup \
+          diff-so-fancy \
           tig 
 brew install --cask vlc gpg-suite-no-mail dbeaver-community
 
