@@ -37,7 +37,8 @@ brew install  autoconf \
           gawk \
           setup \
           diff-so-fancy \
-          tig 
+          tig \
+          dsq 
 brew install --cask vlc gpg-suite-no-mail dbeaver-community
 
 cp .aliases ~/.aliases
