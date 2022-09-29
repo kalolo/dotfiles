@@ -38,6 +38,7 @@ brew install  autoconf \
           setup \
           diff-so-fancy \
           tig \
+          git-extras \
           dsq 
 brew install --cask vlc gpg-suite-no-mail dbeaver-community
 
