@@ -39,7 +39,10 @@ brew install  autoconf \
           diff-so-fancy \
           tig \
           git-extras \
-          dsq 
+          fd \
+          dsq \
+          shellcheck \
+          rich 
 brew install --cask vlc gpg-suite-no-mail dbeaver-community
 
 cp .aliases ~/.aliases
